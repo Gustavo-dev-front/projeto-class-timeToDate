@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.container span[data-time] {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: greenyellow;
+}
