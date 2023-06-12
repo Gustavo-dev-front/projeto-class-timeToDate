@@ -29,15 +29,11 @@ export default class TimeToDate {
     }
 
     get time() {
-        const days = this._days;
-        const hours = this._hours % 24;
-        const minutes = this._minutes % 60;
-        const seconds = this._seconds % 60;
         return {
-            days,
-            hours,
-            minutes,
-            seconds
+            days: this._days,
+            hours: this._hours % 24,
+            minutes: this._minutes % 60,
+            seconds: this._seconds % 60
         }
     }
 }
